@@ -5,8 +5,8 @@ $('.top-slider').slick({
     infinite: true,
     speed: 300,
     slidesToShow: 1,
-    prevArrow: "<img src='../img/arrow_prev.png' class='prev' alt='prev'>",
-    nextArrow: "<img src='../img/arrow_next.png' class='next' alt='next'>",
+    prevArrow: "<img src='./img/arrow_prev.png' class='prev' alt='prev'>",
+    nextArrow: "<img src='./img/arrow_next.png' class='next' alt='next'>",
     adaptiveHeight: true
   });
 
@@ -19,8 +19,8 @@ $('.timeline-slider').slick({
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: "<img src='../img/arrow_prev.png' class='tl-prev' alt='prev'>",
-    nextArrow: "<img src='../img/arrow_next.png' class='tl-next' alt='next'>",
+    prevArrow: "<img src='./img/arrow_prev.png' class='tl-prev' alt='prev'>",
+    nextArrow: "<img src='./img/arrow_next.png' class='tl-next' alt='next'>",
     responsive: [
       {
         breakpoint: 1024,
